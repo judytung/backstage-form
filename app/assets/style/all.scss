@@ -1,8 +1,0 @@
-@import "../../../node_modules/bootstrap/scss/functions";//必要方法，function 一定要在 variables 前面，因為 variables 裡面有用到 function 的方法。
-@import "./helpers/variables";//自定義變數路徑
-@import "../../../node_modules/bootstrap/scss/bootstrap";//BS完整原始碼
-
-
-@import "./helpers/util";
-@import "./layout/layout";
-@import './layout/index.scss';

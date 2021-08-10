@@ -1,5 +1,22 @@
-.index__h1 {
-  color:#00cc99;
-  font-size: 20px;
-  font-weight: 400;
+.admin {
+    width: 80%;
 }
+.addnew:hover {
+    color: $success;
+}
+.admin-icons a span:hover  {
+    font-weight: bold;
+}
+.btn-verifi:hover  {
+    background-color: $gray-400;
+}
+.admin-table tr:hover{
+   background-color: $light;
+} 
+.profile-img {
+    width: 141px;
+    height: 141px;
+    object-fit: cover;
+}
+
+

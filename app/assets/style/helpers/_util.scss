@@ -1,0 +1,16 @@
+$utilities: map-merge(
+  $utilities, (
+    "border2": (
+    responsive: true,
+    property: border,
+    class: border-verifi,
+    values: (400: $gray-400(1px solid))
+  ),
+  "text2": (
+    responsive: true,
+    property: color,
+    class: text,
+    values: (gray: $gray-600)
+  ),
+  )
+);

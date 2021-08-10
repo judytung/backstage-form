@@ -2,7 +2,11 @@
 @import "./helpers/variables";//自定義變數路徑
 @import "../../../node_modules/bootstrap/scss/bootstrap";//BS完整原始碼
 
-
+@import "./helpers/mixin";
+@import "./helpers/base";
 @import "./helpers/util";
 @import "./layout/layout";
-@import './layout/index.scss';
+@import './layout/index';
+
+@import "../../../node_modules/bootstrap/scss/utilities/api"
+

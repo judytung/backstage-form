@@ -1,0 +1,37 @@
+/*layout*/
+h1 a{
+    @include text-hide{
+        width: 151px;
+        height:40px;
+        background-image: url(../images/logo-ANSWER.svg) ;
+    }
+}
+.nav-item {
+    width: 296px;
+    &:hover {
+        background-color: $gray-400;
+    }
+}
+.nav-link{
+    &:focus::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 4px;
+    height: 40px;
+    border-left: 4px solid $success;
+    }
+    &:focus {
+        color: $success;
+    }
+}
+.user-photo {
+    width: 40px;
+    height: 40px;
+    img {
+        object-fit: contain;
+        width: 40px;
+        height: 40px;
+    }
+}

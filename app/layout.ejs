@@ -6,53 +6,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><%- title %></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
     <link rel="stylesheet" href="./assets/style/all.css">
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
+  <div class="container-fluid d-flex g-0">
+    <nav class="d-flex flex-column justify-content-between bg-light min-vh-100">
+      <div class="nav flex-column">
+        <h1 class="m-6"><a href="./index.html">answer</a></h1>
+        <ul class="list-unstyled">
+          <li class="nav-item mb-3"> 
+            <a href="#" class="nav-link fw-bold  ps-6 position-relative" aria-current="page">
+              <span class="material-icons me-3 align-bottom">insert_chart</span>Dashboard
+            </a>
+          </li>
+          <li class="nav-item mb-3">
+            <a href="#" class="nav-link  fw-bold ps-6 position-relative" aria-current="page">
+              <span class="material-icons me-3 align-bottom">question_answer</span>Question
+            </a>
+          </li>
+          <li class="nav-item mb-3">
+            <a href="#" class="nav-link fw-bold ps-6 position-relative" aria-current="page">
+              <span class="material-icons me-3 align-bottom">assignment</span>Assignment
+            </a>
+          </li>
+          <li class="nav-item mb-3">
+            <a href="#" class="nav-link  fw-bold ps-6 position-relative" aria-current="page">
+              <span class="material-icons me-3 align-bottom">video_library</span>Course
+            </a>
+          </li>
+          <li class="nav-item mb-3">
+            <a href="#" class="nav-link fw-bold ps-6 position-relative" aria-current="page">
+              <span class="material-icons me-3 align-bottom">people</span>Admin
+            </a>
+          </li>
+          <li class="nav-item mb-3">
+            <a href="#" class="nav-link  fw-bold ps-6 position-relative" aria-current="page">
+              <span class="material-icons me-3 align-bottom">settings</span>Settings
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="d-flex ms-6">
+        <div class="flex-shrink-0 mb-6">
+          <img src="./assets/images/andychen.jpeg" alt="user-photo" class="user-photo rounded-circle">
+        </div>
+        <div class="flex-grow-1 ms-3">
+            <h6 class="mb-1">Andy Chen</h6>
+            <p class="text-secondary fs-7 mb-0">andy0401@mail.com</p>
         </div>
       </div>
     </nav>
-
     <%- contents %>
+  </div>
 
-    <footer class="footer">
-      footer
-    </footer>
+  
+
 
     <script src="./assets/js/vendors.js"></script>
     <script src="./assets/js/all.js"></script>

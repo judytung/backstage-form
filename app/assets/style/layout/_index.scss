@@ -10,13 +10,30 @@
 .btn-verifi:hover  {
     background-color: $gray-400;
 }
-.admin-table tr:hover{
+.admin-table tbody tr:hover{
    background-color: $light;
+}
+.visibility-icon:hover,.edit-icon:hover {
+    color: $success;
 } 
 .profile-img {
     width: 141px;
     height: 141px;
     object-fit: cover;
 }
-
-
+.expand-more.active{
+    transform: rotate(180deg);
+}
+.page-item{
+    width: 32px;
+    height: 32px;
+}
+.page-link{
+    &:hover {
+        background-color: $success;
+        color: $white;
+    }
+}
+.arrow-left:hover {
+    color: $white;
+}

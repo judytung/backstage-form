@@ -86,7 +86,8 @@ $theme-colors: (
   "warning":    $warning,
   "danger":     $danger,
   "light":      $light,
-  "dark":       $dark
+  "dark":       $dark,
+  "gray-light": $gray-400,
 ) !default;
 // scss-docs-end theme-colors-map
 
@@ -256,7 +257,8 @@ $spacers: (
   4: $spacer * 1.5,  //24
   5: $spacer * 3,    //48
   6: $spacer * 2,    //32
-  7: $spacer * 1.25, //20 
+  7: $spacer * 1.25, //20
+  8: $spacer * 4,    //64
 ) !default;
 
 $negative-spacers: if($enable-negative-margins, negativify-map($spacers), null) !default;

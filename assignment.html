@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Boostrap assignment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
+    <script src="https://cdn.ckeditor.com/ckeditor5/29.1.0/classic/ckeditor.js"></script>
+    <link rel="stylesheet" href="./assets/style/all.css">
+  </head>
+
+  <body>
+  <div class="container-fluid d-flex g-0">
+    <nav class="d-flex flex-column justify-content-between bg-light min-vh-100">
+      <div class="nav flex-column">
+        <h1 class="m-6"><a href="#">answer</a></h1>
+        <ul class="list-unstyled">
+          <li class="nav-item mb-3"> 
+            <a href="#" class="nav-link fw-bold  ps-6 position-relative" aria-current="page">
+              <span class="material-icons me-3 align-bottom">insert_chart</span>Dashboard
+            </a>
+          </li>
+          <li class="nav-item mb-3">
+            <a href="#" class="nav-link  fw-bold ps-6 position-relative" aria-current="page">
+              <span class="material-icons me-3 align-bottom">question_answer</span>Question
+            </a>
+          </li>
+          <li class="nav-item mb-3">
+            <a href="./assignment.html" class="nav-link fw-bold ps-6 position-relative active" aria-current="page">
+              <span class="material-icons me-3 align-bottom">assignment</span>Assignment
+            </a>
+          </li>
+          <li class="nav-item mb-3">
+            <a href="#" class="nav-link  fw-bold ps-6 position-relative" aria-current="page">
+              <span class="material-icons me-3 align-bottom">video_library</span>Course
+            </a>
+          </li>
+          <li class="nav-item mb-3">
+            <a href="./index.html" class="nav-link fw-bold ps-6 position-relative " aria-current="page">
+              <span class="material-icons me-3 align-bottom">people</span>Admin
+            </a>
+          </li>
+          <li class="nav-item mb-3">
+            <a href="#" class="nav-link  fw-bold ps-6 position-relative" aria-current="page">
+              <span class="material-icons me-3 align-bottom">settings</span>Settings
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="d-flex ms-6">
+        <div class="flex-shrink-0 mb-6">
+          <img src="./assets/images/andychen.jpeg" alt="user-photo" class="user-photo rounded-circle">
+        </div>
+        <div class="flex-grow-1 ms-3">
+            <h6 class="mb-1">Andy Chen</h6>
+            <p class="text-secondary fs-7 mb-0">andy0401@mail.com</p>
+        </div>
+      </div>
+    </nav>
+    <main class="container-fluid g-0 p-6">
+    <header class="d-flex justify-content-between">
+        <div class="d-flex">
+            <h2 class="fs-4 fw-bold mb-0 text-dark me-5">Assignment</h2>
+            <div class="dropdown">
+                <button class="btn" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    All Courses<span class="material-icons-outlined align-bottom text-success ms-1">expand_more</span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-icons d-flex align-items-end">
+            <a href="#"><span class="material-icons me-4">search</span></a>
+            <a href="#"><span class="material-icons">notifications_active</span></a>
+        </div>
+    </header>
+    <div class="d-flex justify-content-between mb-2 mt-5">
+        <h4 class="fs-6 mb-0">All (4)<span class="material-icons-outlined align-bottom text-success ms-1">expand_more</span></h4>
+        <p class="fs-9 lh-sm text-gray text-end mb-0 d-flex align-items-end">2 comments</p>
+    </div>
+    <section class="d-flex">
+        <div class="all-list">
+            <ul class="list-group rounded-0">
+                <li class="list-group-item d-flex justify-content-between p-9">
+                    <div>
+                        <h6 class="fs-9 mb-1">Chapter Assignment 2</h6>
+                        <h5 class="fs-6 mb-0">Please check this file…</h5>
+                    </div>
+                    <div class="d-flex flex-column justify-content-between text-end">
+                        <p class="fs-9 mb-1">4 hrs ago</p>
+                        <p class="fs-9 mb-0 text-gray">Emily Wang</p>
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between p-9">
+                    <div>
+                        <h6 class="fs-9 mb-1">Chapter Assignment 1</h6>
+                        <h5 class="fs-6 mb-0">My Homework</h5>
+                    </div>
+                    <div class="d-flex flex-column justify-content-between text-end">
+                        <p class="fs-9 mb-1">12 hrs ago</p>
+                        <p class="fs-9 mb-0 text-gray">David Xu</p>
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between p-9">
+                    <div>
+                        <h6 class="fs-9 mb-1">Final Assignment</h6>
+                        <h5 class="fs-6 mb-0">Have a problem with this…</h5>
+                    </div>
+                    <div class="d-flex flex-column justify-content-between text-end">
+                        <p class="fs-9 mb-1">18 hrs ago</p>
+                        <p class="fs-9 mb-0 text-gray">Tony Wei</p>
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between p-9">
+                    <div>
+                        <h6 class="fs-9 mb-1">Final Assignment</h6>
+                        <h5 class="fs-6 mb-0">Did I do it right?</h5>
+                    </div>
+                    <div class="d-flex flex-column justify-content-between text-end">
+                        <p class="fs-9 mb-1">19 hrs ago</p>
+                        <p class="fs-9 mb-0 text-gray">Christina Lin</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="reply-section ms-3">
+            <div class="card rounded-0 ">
+                <div class="card-header d-flex justify-content-between border-bottom-0 py-9 px-3">
+                    <div>
+                        <h6 class="fs-9 mb-0">Chapter Assignment 2 / HTML&CSS</h6>
+                        <h5 class="fs-6 mb-0 mt-1">Please check this file for me, thanks!</h5>
+                    </div>
+                    <a href="#" class="text-decoration-none d-flex align-items-center"><span class="material-icons">more_vert</span></a>
+                </div>
+                <ul class="list-group rounded-0">
+                    <li class="list-group-item border-0 pt-3 pb-0">
+                        <div class="card d-flex flex-row border-0">
+                            <img src="./assets/images/emilywang.jpeg" alt="user-photo" class="user-photo rounded-circle  flex-shrink-0">
+                            <div class="card-body pt-0 pb-3 border-bottom">
+                                <h6 class="card-title mb-1">Emily Wang</h6>
+                                <p class="fs-9 text-gray mb-0">10:38 AM (4 hours ago)</p>
+                                <p class="fs-7 mt-3">Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: Why in the following code the height of the div is bigger than the height of the img ? There is a gap below the image, but it doesn't seems to be a padding/margin.<br>
+                                What is the gap or extra space below image?</p>
+                                <button class="btn btn-outline-gray-light btn-light d-flex align-items-end text-dark fw-bold d-flex align-items-end rounded-1"><span class="material-icons me-2">attach_file</span>HW-2-David.zip</button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="reply-section list-group-item border-0 pt-3 pb-0 w-100">
+                        <div class="author-reply card flex-row border-0">
+                            <img src="./assets/images/andychen.jpeg" alt="user-photo" class="user-photo rounded-circle  flex-shrink-0">
+                            <div class="card-body pt-0 pb-4">
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <h6 class="card-title mb-1">Andy Chen (You)</h6>
+                                        <p class="fs-9 text-gray mb-0">13:24 AM (1 hours ago)</p>
+                                    </div>
+                                    <ul class="list-unstyled d-flex reply-icons">
+                                        <li class="me-4">
+                                            <a href="#">
+                                                <span class="material-icons-outlined">
+                                                    grade
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span class="material-icons">
+                                                    edit
+                                                </span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <p class="fs-7 mt-3">
+                                    Hi David, by default, an image is rendered inline, like a letter so it sits on the same line that a, b, c and d sit on. There is space below that line for the descenders you find on letters like g, j, p and q.
+                                </p>
+                                <p class="fs-7"> You can:</p>
+                                <ul class="style-disc fs-7">
+                                    <li>adjust the <span class="text-success bg-light">vertical-align</span>  of the image to position it elsewhere (e.g. the <span class="text-success bg-light">middle</span>  ) or </li>
+                                    <li>change the <span class="text-success bg-light">display</span>  so it isn't inline.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--editor-->
+                        <div class="author-editor textarea card border-0 w-100 px-0">
+                            <div id="editor"class="editor">
+                                <p class="text-gray-light">Reply an answer...</p>
+                            </div>
+                            <div class="d-flex justify-content-end me-3">
+                                <input type="submit" value="Cancel" class="cancel-btn btn btn-outline-success rounded-1 py-2 px-6 me-2">
+                                <input type="submit" value="Reply" class="btn btn-success rounded-1 py-2 px-6">
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="btn-group d-flex justify-content-between mt-4">
+                <div class="d-flex">
+                    <a href="#" class="text-decoration-none d-flex align-items-center"><span class="material-icons-outlined me-4  d-block">chevron_left</span></a>
+                    <a href="#" class="text-decoration-none d-flex align-items-center"><span class="material-icons-outlined d-block">chevron_right</span></a>
+                </div>
+                <div>
+                    <input type="submit" value="Mark as read" class="btn btn-outline-success rounded-1 py-2 px-6 me-3">
+                    <input type="submit" value="Reply" class="reply-btn btn btn-success rounded-1 py-2 px-6">
+                </div>
+            </div>
+            
+        </div>
+    </section>
+</main>
+  </div>
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+  </body>
+
+</html>

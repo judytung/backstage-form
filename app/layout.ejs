@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
+    <script src="https://cdn.ckeditor.com/ckeditor5/29.1.0/classic/ckeditor.js"></script>
     <link rel="stylesheet" href="./assets/style/all.css">
   </head>
 
@@ -32,7 +33,7 @@
             </a>
           </li>
           <li class="nav-item mb-3">
-            <a href="#" class="nav-link fw-bold ps-6 position-relative" aria-current="page">
+            <a href="./assignment.html" class="nav-link fw-bold ps-6 position-relative <%- current == 'assignment'? 'active' : '' %>" aria-current="page">
               <span class="material-icons me-3 align-bottom">assignment</span>Assignment
             </a>
           </li>
@@ -42,7 +43,7 @@
             </a>
           </li>
           <li class="nav-item mb-3">
-            <a href="./index.html" class="nav-link fw-bold ps-6 position-relative" aria-current="page">
+            <a href="./index.html" class="nav-link fw-bold ps-6 position-relative <%- current == 'index'? 'active' : '' %>" aria-current="page">
               <span class="material-icons me-3 align-bottom">people</span>Admin
             </a>
           </li>

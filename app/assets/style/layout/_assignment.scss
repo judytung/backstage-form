@@ -1,0 +1,21 @@
+.all-list {
+    width:33.33% ;
+    & ul li:hover {
+        background-color: $light;
+    }
+}
+.reply-section {
+    width: 66.66%;
+}
+.reply-icons li span:hover {
+    color: $success;
+}
+.style-disc {
+    list-style-type: disc;
+}
+.author-editor {
+    display: none;
+}
+.changestyle {
+    padding: 12.5px 0 0 ;
+}

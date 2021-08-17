@@ -1,11 +1,8 @@
-.admin {
-    width: 80%;
-}
 .addnew:hover {
     color: $success;
 }
-.admin-icons a span:hover  {
-    font-weight: bold;
+.header-icons a span:hover  {
+    color: $success;
 }
 .btn-verifi:hover  {
     background-color: $gray-400;

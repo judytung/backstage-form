@@ -2492,27 +2492,27 @@ progress {
 }
 
 .form-control::-webkit-input-placeholder {
-  color: #6c757d;
+  color: #ced4da;
   opacity: 1;
 }
 
 .form-control::-moz-placeholder {
-  color: #6c757d;
+  color: #ced4da;
   opacity: 1;
 }
 
 .form-control:-ms-input-placeholder {
-  color: #6c757d;
+  color: #ced4da;
   opacity: 1;
 }
 
 .form-control::-ms-input-placeholder {
-  color: #6c757d;
+  color: #ced4da;
   opacity: 1;
 }
 
 .form-control::placeholder {
-  color: #6c757d;
+  color: #ced4da;
   opacity: 1;
 }
 
@@ -13141,6 +13141,29 @@ main {
   width: 80%;
 }
 
+:root {
+  --ck-border-radius: 0;
+}
+
+:root {
+  --ck-color-base-border: #ced4da;
+}
+
+.ck.ck-toolbar {
+  border: none !important;
+}
+
+.ck.ck-editor__editable_inline {
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+/*Toolbar*/
+.ck.ck-content {
+  height: 319px !important;
+}
+
 /*layout*/
 h1 a, .h1 a {
   text-indent: 101%;
@@ -13255,9 +13278,9 @@ h1 a, .h1 a {
   padding: 12.5px 0 0;
 }
 
-.editortext {
-  width: 100%;
-  height: 168px;
+.editor-btn {
+  top: 290px;
+  right: 20px;
 }
 
 .align-baseline {

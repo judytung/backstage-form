@@ -2211,7 +2211,7 @@ progress {
   --bs-table-active-color: #212529;
   --bs-table-active-bg: rgba(0, 0, 0, 0.1);
   --bs-table-hover-color: #212529;
-  --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
+  --bs-table-hover-bg: #f8f9fa;
   width: 100%;
   margin-bottom: 1rem;
   color: #212529;
@@ -13213,10 +13213,6 @@ h1 a, .h1 a {
 
 .btn-verifi:hover {
   background-color: #ced4da;
-}
-
-.admin-table tbody tr:hover {
-  background-color: #f8f9fa;
 }
 
 .profile-img {

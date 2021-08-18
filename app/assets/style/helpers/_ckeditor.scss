@@ -1,0 +1,18 @@
+:root {
+    --ck-border-radius: 0;
+  }
+:root {
+    --ck-color-base-border: #{$gray-400};
+}
+.ck.ck-toolbar {
+    border: none !important;
+}
+.ck.ck-editor__editable_inline {
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+/*Toolbar*/
+.ck.ck-content {
+    height: 319px !important;
+  }

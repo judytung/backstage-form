@@ -5571,8 +5571,8 @@ fieldset:disabled .btn {
 
 .page-link:hover {
   z-index: 2;
-  color: #1a1e21;
-  background-color: #e9ecef;
+  color: #fff;
+  background-color: #198754;
   border-color: #dee2e6;
 }
 
@@ -13141,6 +13141,10 @@ main {
   width: 80%;
 }
 
+a:hover {
+  color: #198754;
+}
+
 :root {
   --ck-border-radius: 0;
 }
@@ -13203,14 +13207,6 @@ h1 a, .h1 a {
      object-fit: cover;
 }
 
-.addnew:hover {
-  color: #198754;
-}
-
-.header-icons a span:hover {
-  color: #198754;
-}
-
 .btn-verifi:hover {
   background-color: #ced4da;
 }
@@ -13219,13 +13215,8 @@ h1 a, .h1 a {
   background-color: #f8f9fa;
 }
 
-.visibility-icon:hover, .edit-icon:hover {
-  color: #198754;
-}
-
 .profile-img {
   width: 141px;
-  height: 141px;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -13239,15 +13230,6 @@ h1 a, .h1 a {
 .page-item {
   width: 32px;
   height: 32px;
-}
-
-.page-link:hover {
-  background-color: #198754;
-  color: #fff;
-}
-
-.arrow-left:hover {
-  color: #fff;
 }
 
 .all-list {

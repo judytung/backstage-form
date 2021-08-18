@@ -11,7 +11,9 @@ ClassicEditor
    } )
    .catch( error => {
            console.error( error );
-   } );
+} );
+
+  
 
 var replyBtn = document.querySelector('.reply-btn');
 var cancelBtn = document.querySelector('.cancel-btn');

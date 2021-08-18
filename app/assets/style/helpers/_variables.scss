@@ -1067,8 +1067,8 @@ $pagination-focus-bg:               $gray-200 !default;
 $pagination-focus-box-shadow:       $input-btn-focus-box-shadow !default;
 $pagination-focus-outline:          0 !default;
 
-$pagination-hover-color:            $link-hover-color !default;
-$pagination-hover-bg:               $gray-200 !default;
+$pagination-hover-color:            $white!default;//$link-hover-color 
+$pagination-hover-bg:               $success!default;//$gray-200 !default;
 $pagination-hover-border-color:     $gray-300 !default;
 
 $pagination-active-color:           $component-active-color !default;

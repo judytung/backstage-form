@@ -18,13 +18,11 @@ var cancelBtn = document.querySelector('.cancel-btn');
 var authorReply = document.querySelector('.author-reply');
 var authorEdit = document.querySelector('.author-editor');
 var groupBtn = document.querySelector('.btn-group');
-var replySection = document.querySelector('.reply-section');
 
 replyBtn.addEventListener('click',function(){
     groupBtn.classList.add('d-none');
     authorReply.classList.add('d-none');
     authorEdit.classList.add('d-block');
-    replySection.classList.add('changestyle');
 });
 cancelBtn.addEventListener('click',function(){
     groupBtn.classList.remove('d-none');

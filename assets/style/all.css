@@ -13137,6 +13137,10 @@ img, a {
   display: block;
 }
 
+a {
+  text-decoration: none;
+}
+
 main {
   width: 80%;
 }
@@ -13254,10 +13258,6 @@ h1 a, .h1 a {
 
 .author-editor {
   display: none;
-}
-
-.changestyle {
-  padding: 12.5px 0 0;
 }
 
 .editor-btn {

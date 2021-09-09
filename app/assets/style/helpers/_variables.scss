@@ -389,8 +389,8 @@ $box-shadow-lg:               0 1rem 3rem rgba($black, .175) !default;
 $box-shadow-inset:            inset 0 1px 2px rgba($black, .075) !default;
 // scss-docs-end box-shadow-variables
 
-$component-active-color:      $white !default;
-$component-active-bg:         $primary !default;
+$component-active-color:       $white!default;
+$component-active-bg:          $primary !default;
 
 // scss-docs-start caret-variables
 $caret-width:                 .3em !default;
@@ -1071,8 +1071,8 @@ $pagination-hover-color:            $white!default;//$link-hover-color
 $pagination-hover-bg:               $success!default;//$gray-200 !default;
 $pagination-hover-border-color:     $gray-300 !default;
 
-$pagination-active-color:           $component-active-color !default;
-$pagination-active-bg:              $component-active-bg !default;
+$pagination-active-color:           $white!default;//$component-active-color !default;
+$pagination-active-bg:              $success!default;//$component-active-bg !default;
 $pagination-active-border-color:    $pagination-active-bg !default;
 
 $pagination-disabled-color:         $gray-600 !default;
@@ -1325,9 +1325,9 @@ $list-group-item-bg-scale:          -80% !default;
 $list-group-item-color-scale:       40% !default;
 
 $list-group-hover-bg:               $gray-100 !default;
-$list-group-active-color:           $component-active-color !default;
-$list-group-active-bg:              $component-active-bg !default;
-$list-group-active-border-color:    $list-group-active-bg !default;
+$list-group-active-color:           $gray-900 !default;//$component-active-color !default;
+$list-group-active-bg:              $light!default;//$component-active-bg !default;
+$list-group-active-border-color:     $gray-300!default;//$list-group-active-bg !default;
 
 $list-group-disabled-color:         $gray-600 !default;
 $list-group-disabled-bg:            $list-group-bg !default;
